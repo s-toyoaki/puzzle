@@ -1,0 +1,31 @@
+.red{
+  background-color:#ff0000;
+  height: 100px;
+  width:400px;
+}
+
+.green{
+  background-color:#00ff1e;
+  height:250px;
+  width:150px;
+  float:left;
+}
+
+.blue{
+  background-color:#3300ff;
+  height:250px;
+  width:250px;
+  float:left;
+}
+
+.yellow{
+  background-color:#ffe660;
+  height:100px;
+  width:400px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
