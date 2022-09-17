@@ -1,31 +1,57 @@
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .red{
-  background-color:#ff0000;
-  height: 100px;
+  background-color: #ff0000;
+  height:100px;
   width:400px;
 }
 
 .green{
-  background-color:#00ff1e;
+  background-color:#00ff51;
   height:250px;
   width:150px;
   float:left;
 }
 
+.purple{
+  background-color:#cc00db;
+  height:50px;
+  width:150px;
+}
+
 .blue{
-  background-color:#3300ff;
-  height:250px;
-  width:250px;
+  background-color:#0093b7;
+  height:100px;
+  width:150px;
+}
+
+.orange{
+  background-color:#ff9e6b;
+  height:150px;
+  width:100px;
   float:left;
 }
 
+.brown{
+  background-color:#8c2727;
+  height:100px;
+  width:250px;
+}
+
 .yellow{
-  background-color:#ffe660;
+  background-color:#fff700;
   height:100px;
   width:400px;
 }
 
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
+.pb{
+  float:left;
+}
+
+.pbob{
+  float:left;
 }
