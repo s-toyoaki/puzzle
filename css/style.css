@@ -16,15 +16,19 @@
   position:absolute;
   top: 20px;
   right: 20px;
-  padding:5px;
+  padding: 10px;
 }
 
 .purple{
   background-color:#a9004b;
   height:40px;
   width:40px;
-  margin:5px;
+  margin-left:10px;
   float:right;
+}
+
+.purple:last-child{
+  margin-left: 0px;
 }
 
 .green{
@@ -52,12 +56,16 @@
   background-color:#ff863f;
   height:40px;
   width:140px;
-  margin:10px;
+  margin-bottom:10px;
   border:5px solid #ffffff;
+}
+
+.orange:last-child{
+  margin-bottom: 0px;
 }
 
 .box{
   position:absolute;
-  top: 30px;
-  left: 30px;
+  top: 40px;
+  left: 40px;
 }
