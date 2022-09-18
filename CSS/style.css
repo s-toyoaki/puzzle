@@ -6,8 +6,25 @@
 
 .red{
   background-color: #ff0000;
+  position:relative;
   height:100px;
   width:400px;
+}
+
+.white{
+  background-color:#ffffff;
+  position:absolute;
+  top: 20px;
+  right: 20px;
+  padding:5px;
+}
+
+.purple{
+  background-color:#a9004b;
+  height:40px;
+  width:40px;
+  margin:5px;
+  float:right;
 }
 
 .green{
@@ -17,41 +34,30 @@
   float:left;
 }
 
-.purple{
-  background-color:#cc00db;
-  height:50px;
-  width:150px;
-}
-
-.blue{
-  background-color:#0093b7;
-  height:100px;
-  width:150px;
-}
-
-.orange{
-  background-color:#ff9e6b;
-  height:150px;
-  width:100px;
-  float:left;
-}
-
 .brown{
   background-color:#8c2727;
-  height:100px;
+  height:250px;
   width:250px;
+  float:left;
+  position:relative;
 }
 
 .yellow{
-  background-color:#fff700;
+  background-color:#ffd000;
   height:100px;
   width:400px;
 }
 
-.pb{
-  float:left;
+.orange{
+  background-color:#ff863f;
+  height:40px;
+  width:140px;
+  margin:10px;
+  border:5px solid #ffffff;
 }
 
-.pbob{
-  float:left;
+.box{
+  position:absolute;
+  top: 30px;
+  left: 30px;
 }
