@@ -23,12 +23,12 @@
   background-color:#a9004b;
   height:40px;
   width:40px;
-  margin-left:10px;
-  float:right;
+  margin-right:10px;
+  float:left;
 }
 
 .purple:last-child{
-  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .green{
